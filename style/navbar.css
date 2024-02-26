@@ -1,0 +1,38 @@
+.navbar {
+    background: #8193F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    transition: .5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+
+.fixed {
+    position: fixed;
+    top: -80px;
+}
+
+.navbar-nav .dropdown-menu {
+    animation: fadeIn 0.5s;
+}
+
+.navbar-nav li {
+    transition: .5s;
+}
+
+.navbar-nav li:hover {
+    transform: translateY(-3px);
+}
+
+.nav-item a {
+    color: #fff !important;
+}
+
+.dropdown-menu li a,
+.dropdown-menu a {
+    color: #333 !important;
+}

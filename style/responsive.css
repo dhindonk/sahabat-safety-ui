@@ -1,0 +1,317 @@
+/* Mobile */
+@media screen and (max-width: 575px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        gap: 0;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .navbar-collapse {
+        justify-content: start;
+    }
+
+    /* Floating  */
+    .floating-container {
+        position: fixed;
+        width: 80px;
+        height: 100px;
+        bottom: 0;
+        right: 0;
+        margin: 0 !important;
+        z-index: 100000000000;
+    }
+
+    .floating-button {
+        margin: 0 15px 10px 0;
+    }
+
+    .element-container {
+        margin-bottom: 80px;
+        transition: .5s;
+    }
+
+    /* Banner */
+    .overlay-container {
+        position: relative;
+        height: auto;
+        background: #8193F2;
+    }
+
+    .body-title span:nth-child(2) {
+        background: #fff;
+        color: #8193F2;
+    }
+
+    .contain-buttom a {
+        background: #fff;
+        color: #8193F2;
+    }
+    
+
+    /* Keunggulan & Layanan */
+    .top-container {
+        font-size: 1.5em;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .content-body::before {
+        content: '';
+        width: 80%;
+        height: 70%;
+        position: absolute;
+        border-top-left-radius: 150px;
+        border-bottom-right-radius: 150px;
+        transform: translateX(0) translateY(-10px);
+        background: #8193F2;
+        z-index: -1;
+    }
+
+    .left-container {
+        height: auto;
+        padding: 50px;
+
+    }
+
+    .right-container {
+        height: auto;
+        padding: 50px;
+    }
+
+    .right-container ul li {
+        font-size: 12px;
+    }
+
+    .container-layanan {
+        padding: 50px;
+    }
+
+    .content-layanan {
+        display: block;
+    }
+
+    .layanan-container {
+        padding: 20px;
+    }
+
+    .content-layanan {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* Artikel */
+    .container-artikel {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .artikel-card {
+        border: 1px solid #8193F2;
+    }
+
+    .artikel-card #readmore {
+        top: 0px;
+        color: #8193F2;
+        opacity: 1;
+        animation: readmore .8s linear infinite;
+    }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+    /* Navbar */
+    .navbar-nav {
+        gap: 0;
+        margin-top: 20px;
+    }
+
+    /* Keunggulan & Layanan */
+    .top-container {
+        font-size: 1.5em;
+    }
+
+    .left-container {
+        height: auto;
+        padding: 50px;
+    }
+
+    .right-container {
+        height: auto;
+        padding: 50px;
+    }
+
+    .right-container ul li {
+        font-size: 15px;
+    }
+
+    .container-layanan {
+        padding: 50px;
+    }
+
+    .layanan-container {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body-layanan {
+        padding: 20px;
+    }
+
+    /* Artikel */
+    .container-artikel {
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+
+    .artikel-card {
+        border: 1px solid #8193F2;
+    }
+
+    .artikel-card #readmore {
+        top: 0px;
+        color: #8193F2;
+        opacity: 1;
+        animation: readmore .8s linear infinite;
+    }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+
+    /* Desktop */
+    .navbar {
+        padding-left: 100px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 50px;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+
+    .overlay-content {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding-left: 80px;
+    }
+
+
+    .body-title {
+        font-size: 2.5em;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-bottom: 30px;
+    }
+
+    .contain-buttom {
+        font-size: 15px;
+        font-weight: 200;
+        width: 500px;
+    }
+
+    /* Keunggulan & Layanan */
+    .layanan-container {
+        width: auto;
+        padding: 50px;
+    }
+
+    .layanan-container span {
+        font-size: 2em;
+    }
+
+    .top-container {
+        padding-bottom: 100px;
+    }
+
+    /* Artikel */
+    .artikel-header span:nth-child(1) {
+        font-size: 2em;
+    }
+
+    .klien-header span:nth-child(1) {
+        font-size: 2em;
+    }
+
+    .body-row-details {
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        word-wrap: break-word;
+    }
+
+    .body-row-details a {
+        margin: 20px;
+        text-align: center;
+        color: #333;
+        text-decoration: none;
+        transition: .3s;
+        width: auto;
+        max-width: 300px;
+    }
+
+    .body-row-details a div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body-row-details a div img {
+        width: 50px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
+
+/* Large */
+
+@media screen and (min-width: 2000px) {
+    .overlay-content {
+        padding: 50px;
+        text-align: start;
+        color: white;
+        user-select: none;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .body-title {
+        font-size: 3em;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .contain-buttom {
+        font-size: 1.2em;
+    }
+}
