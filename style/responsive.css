@@ -52,7 +52,7 @@
         background: #fff;
         color: #8193F2;
     }
-    
+
 
     /* Keunggulan & Layanan */
     .top-container {
@@ -124,6 +124,12 @@
         animation: readmore .8s linear infinite;
     }
 
+    /*  */
+    .layanan-container-visi-misi {
+        width: 100%;
+        padding: 50px;
+    }
+
 }
 
 /* Tablet */
@@ -186,6 +192,25 @@
         animation: readmore .8s linear infinite;
     }
 
+    /*  */
+    .right-container-about img {
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+    }
+
+    .visi-box span:nth-child(2),
+    .misi-box span:nth-child(2) {
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+
+    .layanan-container-visi-misi {
+        width: 100%;
+        border-radius: 100px 0 100px 0;
+        color: #fff;
+        padding: 40px;
+    }
 }
 
 /* Desktop */
@@ -216,7 +241,6 @@
         flex-direction: column;
         padding-left: 80px;
     }
-
 
     .body-title {
         font-size: 2.5em;
@@ -284,8 +308,30 @@
         width: 50px;
     }
 
+    /*  */
     .footer {
         font-size: 12px;
+    }
+
+    /*  */
+    .body-about {
+        padding: 50px;
+    }
+
+    .top-container-about span {
+        font-size: 1.5em;
+    }
+
+    .right-container-about img {
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+    }
+
+    .visi-box span:nth-child(2),
+    .misi-box span:nth-child(2) {
+        font-size: 1.2em;
+        font-weight: normal;
     }
 }
 

@@ -1,0 +1,119 @@
+.body-team {
+    height: auto;
+}
+
+.top-container-team {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 3pc;
+}
+
+.top-container-team span:nth-child(1) {
+    background: #8193F2;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 600;
+}
+
+.container-team {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    font-size: 15px;
+    text-align: justify;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+
+.container-team .col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    max-width: 500px;
+}
+
+.container-team .col .imgBox {
+    position: relative;
+    width: auto;
+    display: flex;
+}
+
+.container-team .col .imgBox img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.container-team .col .imgBox img:nth-child(2) {
+    position: absolute;
+    right: -5px;
+    top: -34px;
+}
+
+.container-team .col .textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    word-wrap: break-word;
+}
+
+.container-team .col .textBox span {
+    font-size: 15px;
+}
+
+.container-team .col .textBox span:nth-child(1) {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 575px) {}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 991px) {}
+
+
+@media screen and (min-width: 992px) {
+    .body-team {
+        padding: 50px;
+    }
+
+    .top-container-team {
+        margin-bottom: 0;
+    }
+
+    .top-container-team span:nth-child(1) {
+        padding: 2px 20px 2px 20px;
+        font-size: 2em;
+    }
+
+
+    .container-team .col {
+        margin-top: 50px;
+        max-width: 500px;
+        min-width: 500px;
+    }
+
+    .container-team .col .textBox span {
+        font-size: 18px;
+    }
+
+    .container-team .col .textBox span:nth-child(1) {
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+
+}

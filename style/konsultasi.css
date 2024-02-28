@@ -1,0 +1,135 @@
+.body-konsultasi {
+    height: auto;
+}
+
+.top-container-konsultasi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 3pc;
+}
+
+.top-container-konsultasi span:nth-child(1) {
+    background: #8193F2;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 600;
+}
+
+.container-konsultasi {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 15px;
+    text-align: justify;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+
+.container-konsultasi .col {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+    gap: 20px;
+    flex-direction: column;
+    color: #333;
+}
+
+.container-konsultasi .col span:nth-child(1) {
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #8193F2;
+}
+
+.box-img {
+    width: 100%;
+}
+
+.box-img img:hover {
+    cursor: zoom-in;
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Zoom Img */
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+#img-viewer {
+    display: none;
+    position: fixed;
+    z-index: 100000000000000000000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #fff;
+    cursor: zoom-out;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.img-container {
+    position: relative;
+    width: 300px;
+}
+
+@media screen and (max-width: 575px) {
+    #img-viewer {
+        background: #333;
+    }
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 991px) {}
+
+
+@media screen and (min-width: 992px) {
+    .body-konsultasi {
+        padding: 50px;
+    }
+
+    .top-container-konsultasi {
+        margin-bottom: 0;
+    }
+
+    .top-container-konsultasi span:nth-child(1) {
+        padding: 10px 25px 10px 25px;
+        font-size: 1.5em;
+    }
+
+    .container-konsultasi {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+}

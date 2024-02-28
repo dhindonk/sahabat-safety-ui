@@ -1,0 +1,131 @@
+.body-pengadaan {
+    height: auto;
+}
+
+.top-container-pengadaan {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 3pc;
+}
+
+.top-container-pengadaan span:nth-child(1) {
+    background: #8193F2;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 600;
+}
+
+.container-pengadaan {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    font-size: 15px;
+    text-align: justify;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+
+.container-pengadaan .col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    max-width: 500px;
+    flex-direction: column;
+}
+
+.container-pengadaan .col a .imgBox {
+    position: relative;
+    width: auto;
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.container-pengadaan .col a {
+    transition: .3s;
+}
+
+.container-pengadaan .col a:hover {
+    transform: translateY(-8px);
+    box-shadow: rgba(60, 60, 60, 0.15) 0px 48px 100px 0px;
+}
+
+.container-pengadaan .col .imgBox img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.container-pengadaan .col .imgBox img:nth-child(2) {
+    position: absolute;
+    right: -5px;
+    top: -34px;
+}
+
+.container-pengadaan .col .textBox {
+    background: #8193F2;
+    color: #fff;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+.container-pengadaan .col .textBox span {
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 575px) {
+    .container-pengadaan .col {
+        width: 200px;
+        margin-top: 50px;
+    }
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 991px) {}
+
+
+@media screen and (min-width: 992px) {
+    .body-pengadaan {
+        padding: 50px;
+    }
+
+    .top-container-pengadaan {
+        margin-bottom: 0;
+    }
+
+    .top-container-pengadaan span:nth-child(1) {
+        padding: 10px 25px 10px 25px;
+        font-size: 1.5em;
+    }
+
+    .container-pengadaan .col {
+        margin-top: 50px;
+    }
+
+    .container-pengadaan .col .textBox span:nth-child(1) {
+        font-size: 1.2em;
+    }
+
+    .container-pengadaan .col .textBox {
+        padding: 5px 20px 5px 20px;
+        border-radius: 5px;
+    }
+
+}

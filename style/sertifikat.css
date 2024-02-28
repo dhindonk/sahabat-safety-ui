@@ -1,0 +1,122 @@
+.body-serti {
+    padding: 40px;
+    background: #fff;
+}
+
+.top-container-serti {
+    background: #8193F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+}
+
+.top-container-serti span {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.left-container-serti {
+    text-align: justify;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.left-container-serti span:nth-child(2),
+.left-container-serti span:nth-child(4) {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.right-container-serti {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+/*  */
+.serti-container-visi-misi {
+    background: #8193F2;
+    width: 90%;
+    border-radius: 100px 0 100px 0;
+    color: #fff;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-serti-visi-misi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.content-serti-visi-misi a {
+    transition: .3s;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-serti-visi-misi a:hover {
+    transform: translateY(-5px);
+
+}
+
+.box-title-serti {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.content-box-serti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.content-box-serti img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+
+/* Mobile */
+@media screen and (max-width: 575px) {
+    .right-container-serti {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-container-serti span {
+        font-size: 1.2em;
+    }
+}
+
+
+/* Tablet */
+@media screen and (min-width: 576px) and (max-width: 991px) {}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    .top-container-serti {
+        padding: 10px 25px 10px 25px;
+    }
+
+    .left-container-serti {
+        padding-left: 50px;
+    }
+
+    .serti-container-visi-misi {
+        max-width: 90%;
+        width: 400px;
+    }
+
+}

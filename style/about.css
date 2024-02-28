@@ -1,0 +1,95 @@
+.body-about {
+    padding: 40px;
+    background: #fff;
+}
+
+.top-container-about {
+    background: #8193F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+}
+
+.top-container-about span {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.left-container-about {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.right-container-about {}
+
+.right-container-about img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* VisiMisi */
+.layanan-container-visi-misi {
+    background: #8193F2;
+    width: 90%;
+    border-radius: 100px 0 100px 0;
+    color: #fff;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-layanan-visi-misi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.visi-box,
+.misi-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.visi-box span:nth-child(1),
+.misi-box span:nth-child(1) {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.visi-box span:nth-child(2),
+.misi-box span:nth-child(2) {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* Mobile */
+@media screen and (max-width: 575px) {
+    
+}
+
+
+/* Tablet */
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    .top-container-about {
+        padding: 10px 25px 10px 25px;
+    }
+    
+}
+
+

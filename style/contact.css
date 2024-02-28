@@ -1,0 +1,71 @@
+.body-map {
+    background: #fff;
+}
+
+.body-map iframe {
+    width: 100%;
+    height: 550px;
+}
+
+.body-contact {
+    /* background: #000; */
+    width: 100%;
+}
+
+.left-container-contact {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #333;
+}
+
+.title-box {
+    background: #8193F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.title-box span {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.right-container-contact {
+    width: 100%;
+    padding: 20px;
+}
+
+.form-massage {
+    position: relative;
+}
+
+.form-massage button {
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+}
+
+.form-massage textarea {
+    resize: none;
+}
+
+.btn-custom {
+    background: #8193F2;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: .3s;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background: #fff;
+    color: #8193F2;
+    border: 1px solid #8193F2;
+}
