@@ -121,10 +121,10 @@
     width: 100%;
     height: auto;
     text-decoration: none;
-    transition: .3s ;
+    transition: .3s;
 }
-.content-layanan a:hover
-{
+
+.content-layanan a:hover {
     transform: translateY(-8px);
     opacity: 50%;
 }
