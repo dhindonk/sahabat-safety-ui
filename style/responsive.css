@@ -1,5 +1,21 @@
-/* Mobile */
+/* 
+====================
+
+
+
+
+
+Mobile
+
+
+
+
+
+
+====================
+ */
 @media screen and (max-width: 575px) {
+
   /* Navbar */
   .navbar {
     padding: 10px;
@@ -97,6 +113,7 @@
     width: 100%;
     height: auto;
   }
+
   .content-layanan a ul img {
     width: 70px;
     height: 70px;
@@ -144,10 +161,109 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  /* Serti */
+  .right-container-serti {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-container-serti span {
+    font-size: 1.2em;
+  }
+
+  /* Sambutan */
+  .watermark img {
+    transform: scale(1);
+  }
+
+  /* Pesawat */
+  .container-serti-item {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-container-serti-item span {
+    font-size: 1.2em;
+  }
+
+  .content-serti-item {
+    padding: 0;
+  }
+
+  .content-serti-item img {
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .page-desc-container-serti #title {
+    margin-top: 50px;
+  }
+
+  .body-page {
+    padding: 40px;
+  }
+
+  /* Pengadaan */
+  .container-pengadaan .col {
+    width: 200px;
+    margin-top: 50px;
+  }
+
+  /* Konsul */
+  #img-viewer {
+    background: #333;
+  }
+
+  /* Artikel */
+  .card img {
+    max-height: 200px;
+  }
 }
 
-/* Tablet */
+/* 
+====================
+
+
+
+
+
+
+
+
+
+
+
+
+====================
+ */
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* 
+====================
+
+
+
+
+
+TABLET
+
+
+
+
+
+====================
+ */
+
 @media screen and (min-width: 576px) and (max-width: 991px) {
+
   /* Navbar */
   .navbar-nav {
     gap: 0;
@@ -183,11 +299,13 @@
     justify-content: center;
     align-items: center;
   }
+
   .content-layanan a ul img {
     width: 70px;
     height: 70px;
     margin-bottom: 15px;
   }
+
   .body-layanan {
     padding: 20px;
   }
@@ -228,10 +346,48 @@
     color: #fff;
     padding: 40px;
   }
+
+  /* Sambutan */
+  .watermark img {
+    transform: scale(2);
+  }
+
+  /* Pesawat */
+  .page-desc-container-serti #title {
+    margin-top: 50px;
+  }
+
+  .content-serti-item img {
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Arikel */
+  .card img {
+    max-height: 200px;
+  }
 }
 
-/* Desktop */
+/* 
+====================
+
+
+
+
+
+DESKTOP
+
+
+
+
+
+====================
+ */
 @media screen and (min-width: 992px) {
+
   /* Desktop */
   .navbar {
     padding-left: 100px;
@@ -359,9 +515,156 @@
     font-size: 1.2em;
     font-weight: normal;
   }
+
+  /* Team */
+  .body-team {
+    padding: 50px;
+  }
+
+  .top-container-team {
+    margin-bottom: 0;
+  }
+
+  .top-container-team span:nth-child(1) {
+    padding: 2px 20px 2px 20px;
+    font-size: 2em;
+  }
+
+
+  .container-team .col {
+    margin-top: 50px;
+    max-width: 500px;
+    min-width: 500px;
+  }
+
+  .container-team .col .textBox span {
+    font-size: 18px;
+  }
+
+  .container-team .col .textBox span:nth-child(1) {
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+
+  /* Serti */
+  .top-container-serti {
+    padding: 10px 25px 10px 25px;
+  }
+
+  .left-container-serti {
+    padding-left: 50px;
+  }
+
+  .serti-container-visi-misi {
+    max-width: 90%;
+    width: 400px;
+  }
+
+  /* Sambutan */
+  .body-sambutan {
+    padding: 50px;
+  }
+
+  .top-container-sambutan span {
+    padding: 10px 25px 10px 25px;
+    font-size: 1.5em;
+  }
+
+  .container-sambutan {
+    font-size: 1.1em;
+  }
+
+  /* Pesawat */
+  .top-container-serti-item {
+    padding: 10px 25px 10px 25px;
+  }
+
+  .bottom-container-serti-item {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* Pengadaan */
+  .body-pengadaan {
+    padding: 50px;
+  }
+
+  .top-container-pengadaan {
+    margin-bottom: 0;
+  }
+
+  .top-container-pengadaan span:nth-child(1) {
+    padding: 10px 25px 10px 25px;
+    font-size: 1.5em;
+  }
+
+  .container-pengadaan .col {
+    margin-top: 50px;
+  }
+
+  .container-pengadaan .col .textBox span:nth-child(1) {
+    font-size: 1.2em;
+  }
+
+  .container-pengadaan .col .textBox {
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+  }
+
+  /* Konsul */
+  .body-konsultasi {
+    padding: 50px;
+  }
+
+  .top-container-konsultasi {
+    margin-bottom: 0;
+  }
+
+  .top-container-konsultasi span:nth-child(1) {
+    padding: 10px 25px 10px 25px;
+    font-size: 1.5em;
+  }
+
+  .container-konsultasi {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* Klien */
+  .body-klien {
+    padding: 50px;
+  }
+
+  .top-container-klien {
+    margin-bottom: 0;
+  }
+
+  .top-container-klien span:nth-child(1) {
+    padding: 2px 20px 2px 20px;
+    font-size: 2em;
+  }
+
+  .container-klien .col {
+    margin-top: 20px;
+  }
+
 }
 
-/* Large */
+/* 
+====================
+
+
+
+
+
+> DESKTOP
+
+
+
+
+
+====================
+ */
 
 @media screen and (min-width: 2000px) {
   .overlay-content {

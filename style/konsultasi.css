@@ -89,47 +89,8 @@
     cursor: zoom-out;
 }
 
-
-@media only screen and (max-width: 700px) {
-    .modal-content {
-        width: 100%;
-    }
-}
-
 .img-container {
     position: relative;
     width: 300px;
 }
-
-@media screen and (max-width: 575px) {
-    #img-viewer {
-        background: #333;
-    }
-}
-
-
-
-@media screen and (min-width: 576px) and (max-width: 991px) {}
-
-
-@media screen and (min-width: 992px) {
-    .body-konsultasi {
-        padding: 50px;
-    }
-
-    .top-container-konsultasi {
-        margin-bottom: 0;
-    }
-
-    .top-container-konsultasi span:nth-child(1) {
-        padding: 10px 25px 10px 25px;
-        font-size: 1.5em;
-    }
-
-    .container-konsultasi {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-
-}
+ 

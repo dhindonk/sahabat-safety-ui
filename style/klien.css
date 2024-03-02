@@ -71,31 +71,4 @@
     object-fit: contain;
 }
 
-
-@media screen and (max-width: 575px) {}
-
-
-
-@media screen and (min-width: 576px) and (max-width: 991px) {}
-
-
-@media screen and (min-width: 992px) {
-    .body-klien {
-        padding: 50px;
-    }
-
-    .top-container-klien {
-        margin-bottom: 0;
-    }
-
-    .top-container-klien span:nth-child(1) {
-        padding: 2px 20px 2px 20px;
-        font-size: 2em;
-    }
-
-    .container-klien .col {
-        margin-top: 20px;
-    }
-
-
-}
+ 

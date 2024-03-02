@@ -87,45 +87,4 @@
 .container-pengadaan .col .textBox span {
     font-size: 15px;
 }
-
-
-@media screen and (max-width: 575px) {
-    .container-pengadaan .col {
-        width: 200px;
-        margin-top: 50px;
-    }
-}
-
-
-
-@media screen and (min-width: 576px) and (max-width: 991px) {}
-
-
-@media screen and (min-width: 992px) {
-    .body-pengadaan {
-        padding: 50px;
-    }
-
-    .top-container-pengadaan {
-        margin-bottom: 0;
-    }
-
-    .top-container-pengadaan span:nth-child(1) {
-        padding: 10px 25px 10px 25px;
-        font-size: 1.5em;
-    }
-
-    .container-pengadaan .col {
-        margin-top: 50px;
-    }
-
-    .container-pengadaan .col .textBox span:nth-child(1) {
-        font-size: 1.2em;
-    }
-
-    .container-pengadaan .col .textBox {
-        padding: 5px 20px 5px 20px;
-        border-radius: 5px;
-    }
-
-}
+ 

@@ -86,37 +86,3 @@
     height: 50px;
     object-fit: contain;
 }
-
-
-/* Mobile */
-@media screen and (max-width: 575px) {
-    .right-container-serti {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .top-container-serti span {
-        font-size: 1.2em;
-    }
-}
-
-
-/* Tablet */
-@media screen and (min-width: 576px) and (max-width: 991px) {}
-
-/* Desktop */
-@media screen and (min-width: 992px) {
-    .top-container-serti {
-        padding: 10px 25px 10px 25px;
-    }
-
-    .left-container-serti {
-        padding-left: 50px;
-    }
-
-    .serti-container-visi-misi {
-        max-width: 90%;
-        width: 400px;
-    }
-
-}
